@@ -1,0 +1,34 @@
+{
+  "name": "neighborhood-map",
+  "version": "1.0.0",
+  "description": "udacity neighborhood map",
+  "main": "index.js",
+  "repository": "https://github.com/TUPOBO/NeighborhoodMap-project.git",
+  "author": "TUPOBO <1028461931@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "postcss-import": "^11.1.0",
+    "pump": "^3.0.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.0.1",
+    "webpack-stream": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "knockout": "^3.5.0-beta",
+    "normalize.css": "^8.0.0",
+    "popper.js": "^1.12.9"
+  }
+}
