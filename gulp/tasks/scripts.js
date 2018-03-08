@@ -9,7 +9,7 @@ gulp.task('scripts', function() {
     gulp.src('./src/scripts/script.js',{base:'src'}),
     named(),
     webpack(),
-    uglify(),
+    // uglify(),
     gulp.dest('./dist/scripts')
   )
 });

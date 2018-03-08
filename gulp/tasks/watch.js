@@ -11,7 +11,9 @@ gulp.task('watch', function() {
     }
   });
 
-  gulp.watch('./src/index.html', ['htmlmin'], function() {
+  gulp.watch('./src/index.html',['htmlmin']);
+
+  gulp.watch('./dist/index.html',function(){
     browserSync.reload();
   });
 
@@ -26,7 +28,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('cssInject', ['styles'], function() {
-  return gulp.src('.src/styles/styles.css')
+  return gulp.src('.dist/styles/styles.css')
     .pipe(browserSync.stream());
 });
 

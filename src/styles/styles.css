@@ -1,2 +1,6 @@
 @import "bootstrap";
 
+#map {
+    height: 100vh;
+    width: 100%;
+}

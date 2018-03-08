@@ -13,5 +13,12 @@
 -   搭建开发环境
     -   HTML：`gulp-htmlmin`
     -   CSS：`gulp-postcss` `post-import` `gulp-cssnano`
-    -   JavaScript：`webpack` `babel` `uglify`
+    -   JavaScript：`webpack-stream` `uglify`
     -   自动刷新：`gulp-watch` `browser-sync`
+-   加载Google Map
+    -   `initMap is not a function`? :`window.initMap = function() {...}`
+-   应用Knockout.js
+    -   Model：1.地点信息 2.标记样式 3.信息窗口
+    -   ViewModel：1.列表内容 2.是否显示列表 3.初始化地图 4.根据地点信息生成标记和绑定相关信息窗口 5.搜索栏筛选地点
+
+
